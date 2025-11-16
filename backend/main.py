@@ -10,7 +10,7 @@ app = FastAPI(title="Fashion Classifier Backend")
 origins = [
     "http://localhost:5173",   # Vite default
     "http://localhost:8080",   # in case you're using this port
-    "https://your-vercel-domain.vercel.app",  # replace later after deploy
+    "https://fashion-forward-ai-classifier.vercel.app",  # replace later after deploy
 ]
 
 app.add_middleware(
